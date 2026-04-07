@@ -11,7 +11,7 @@ const envConfig = dotenv.config();
 const env: EnvironmentVariables = envConfig.parsed || {};
 
 const app: Express = express();
-const port: number = 5000;
+const port: number = 3000;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
